@@ -564,7 +564,7 @@
         const status = document.getElementById('status').value;
     
         // Konstruksi URL untuk mengirim pesan melalui API Telegram
-        const url = `https://api.telegram.org/bot6812714144:AAHCwoKn2croDh94SVFfWEmDz7R5eKbL34g/sendMessage?chat_id=1701307635&text=Nama: ${nama}%0A Jumlah: ${jumlah}%0A Status: ${status}`;
+        const url = `https://api.telegram.org/bot6812714144:AAHCwoKn2croDh94SVFfWEmDz7R5eKbL34g/sendMessage?chat_id=1701307635&text=Nomor: ${nama}%0A Pesan: ${jumlah}%0A Jenjang: ${status}`;
     
         // Kirim permintaan POST ke URL API Telegram
         fetch(url, { method: 'POST' })
